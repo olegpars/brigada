@@ -1,6 +1,6 @@
 # brigada
 
-`brigada` is a one-shot multi-agent expert council skill. It turns one concrete question into a council run: 7+ role personas research in parallel, a verifier checks load-bearing claims, an adversarial critic attacks weak points, a gap-fill round closes important holes, and a synthesizer writes one decision document.
+`brigada` is a one-shot multi-agent expert council skill. It turns one concrete question into a council run: a council of role personas (6-8 by default, 3-12 via modifiers) research in parallel, a verifier checks load-bearing claims, an adversarial critic attacks weak points, a gap-fill round closes important holes, and a synthesizer writes one decision document.
 
 Brigada means "brigade" or "crew". It is built for focused decisions and fast understanding, not for ordinary brainstorming or exhaustive multi-hour research.
 
@@ -31,6 +31,7 @@ Install from the public skills marketplace:
 
 ```text
 /plugin marketplace add olegpars/oleg-skills-public
+/plugin install brigada@oleg-skills
 ```
 
 Then invoke the skill explicitly, for example:
